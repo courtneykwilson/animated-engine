@@ -1,6 +1,7 @@
-# animated-engine
-Descriptive Epidemiology and Measures of Association: Risk Factors for Low Birth Weight
-author: Courtney Wilson
+---
+Title: "Descriptive Epidemiology and Measures of Association: Risk Factors for Low Birth Weight"
+Author: "Courtney Wilson"
+Date: "29 July 2026"
 output:
   html_document:
     toc: true
@@ -8,13 +9,6 @@ output:
     theme: flatly
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
-library(MASS)      # provides the birthwt dataset
-library(dplyr)
-library(ggplot2)
-library(knitr)
-```
 
 ## 1. Background
 
@@ -151,3 +145,10 @@ precision of the estimated effect. This descriptive analysis motivates
 the multivariable logistic regression in the next report, which adjusts
 for other maternal risk factors (age, weight, hypertension, uterine
 irritability, prior preterm labor) that may confound the smoking–LBW
+relationship.
+
+## Session info
+
+```{r session-info}
+sessionInfo()
+```
