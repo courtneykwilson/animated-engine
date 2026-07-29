@@ -1,7 +1,7 @@
 # animated-engine
-title: "Descriptive Epidemiology and Measures of Association: Risk Factors for Low Birth Weight"
+Descriptive Epidemiology and Measures of Association: Risk Factors for Low Birth Weight
 author: Courtney Wilson
-date: "`r Sys.Date()`"
+
 output:
   html_document:
     toc: true
