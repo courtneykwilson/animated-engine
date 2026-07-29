@@ -1,7 +1,6 @@
 # animated-engine
 Descriptive Epidemiology and Measures of Association: Risk Factors for Low Birth Weight
 author: Courtney Wilson
-
 output:
   html_document:
     toc: true
