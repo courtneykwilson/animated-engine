@@ -91,7 +91,7 @@ tab
 
 ## 6. Measures of association
 
-We compute the risk ratio (RR) and odds ratio (OR) for low birth weight
+Computing the risk ratio (RR) and odds ratio (OR) for low birth weight
 comparing smokers to non-smokers, along with 95% confidence intervals
 using standard log-scale formulas (Rothman, *Modern Epidemiology*).
 
@@ -134,8 +134,8 @@ fisher.test(tab)
 Mothers who smoked during pregnancy had a higher proportion of low
 birth weight deliveries than non-smokers. The risk ratio indicates the
 relative increase in probability of LBW among smokers, while the odds
-ratio — commonly reported because it generalizes to case-control designs
-and multivariable logistic regression — is slightly larger in magnitude,
+ratio commonly reported because it generalizes to case-control designs
+and multivariable logistic regression is slightly larger in magnitude,
 as expected when the outcome is not rare (the "rare disease assumption"
 under which OR approximates RR does not hold well here, since LBW
 prevalence is roughly 30% in this sample). The chi-square and Fisher's
